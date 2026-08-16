@@ -41,4 +41,4 @@ Open `Bending_Model.m` in MATLAB and run it directly — all parameters (elastic
 
 ## Reference
 
-See the top-level [README](../README.md) and the associated paper for the full derivation of the process model and how this simulation relates to the real-time control code in `Real Time Codes/`.
+See the top-level [README](../README.md) and the associated paper for the full derivation of the process model and how this simulation relates to the real-time control code in `real_time_codes/`.
