@@ -8,20 +8,21 @@ The repository contains the experimental data, MATLAB implementation of the proc
 ```text
 .
 ├── All_Figures/            # All figures in the Paper
-├── data_and_figures/       # Dataset for Figures 9-22 in the Paper
-├── src/                    
-│   ├── real_time_code/     # Real-time image processing and process control algorithm (C++)
-│   └── simulation/         # Process model and simulation (MATLAB)
+├── data_and_figures/       # Dataset for Figures 9-22 in the Paper              
+├── real_time_codes/        # Real-time image processing and process control algorithm (C++)
+├── simulations/            # Process model and simulation (MATLAB)
 ├── CITATION.cff
 ├── LICENSE                 
 └── README.md      
 ```
 
-The study proposes a feedforward-feedback control methodology for efficiently and accurately bending a metal plate. The proposed process model is first used to simulate the bending process, and the corresponding MATLAB implementation is provided in the `src/simulation` directory. 
+The study proposes a feedforward-feedback control methodology for efficiently and accurately bending a metal plate. The proposed process model is first used to simulate the bending process, and the corresponding MATLAB implementation is provided in the `simulations` directory. 
 
-The process model and control strategy proposed in the paper is then validated by experiments. The experimental setup used in this study comprises a servo motor-driven three-axis motion-control system, with feedbacks coming from the servo encoders, a visual camera and a force sensor. The system is operated by a multithreaded, real-time C++ application. *This repository does **not** contain the complete code that runs the motion and sensory system in real-time, as that would make the repository hardware specific.* Only the image processing code and the process controlling code are included in `src/real_time_code/` directory. 
+The process model and control strategy proposed in the paper is then validated by experiments. The experimental setup used in this study comprises a servo motor-driven three-axis motion-control system, with feedbacks coming from the servo encoders, a visual camera and a force sensor. The system is operated by a multithreaded, real-time C++ application. *This repository does **not** contain the complete code that runs the motion and sensory system in real-time, as that would make the repository hardware specific.* Only the image processing code and the process controlling code are included in `real_time_codes/` directory. 
 
 The `data_and_figures/` directory contains the relevant experimental data that have been used to generate the Figure 9-22 in the paper. Each figure has its own subfolder that contains `.csv` files with relevant data from the sensors or simulation results. 
+
+The `All_figures/` directory contains all the figures in the paper.
 
 ## Prerequisites
 The simulation code only requires MATLAB and accompanying data to be run.
