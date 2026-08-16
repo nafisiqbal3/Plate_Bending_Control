@@ -16,7 +16,7 @@ The repository contains the experimental data, MATLAB implementation of the proc
 └── README.md      
 ```
 
-The study proposes a feedforward-feedback control methodology for efficiently and accurately bending a metal plate. The proposed process model is first used to simulate the bending process, and the corresponding MATLAB implementation is provided in the `simulations` directory. 
+The study proposes a feedforward-feedback control methodology for efficiently and accurately bending a metal plate. The proposed process model is first used to simulate the bending process, and the corresponding MATLAB implementation is provided in the `simulations/` directory. 
 
 The process model and control strategy proposed in the paper is then validated by experiments. The experimental setup used in this study comprises a servo motor-driven three-axis motion-control system, with feedbacks coming from the servo encoders, a visual camera and a force sensor. The system is operated by a multithreaded, real-time C++ application. *This repository does **not** contain the complete code that runs the motion and sensory system in real-time, as that would make the repository hardware specific.* Only the image processing code and the process controlling code are included in `real_time_codes/` directory. 
 
