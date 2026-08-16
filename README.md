@@ -1,4 +1,4 @@
-# Feedforward-Feedback Control Methodology for Low-Volume Precision Plate Bending [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+# Feedforward-Feedback Control Methodology for Low-Volume Precision Plate Bending [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE) [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21970751.svg)](https://doi.org/10.5281/zenodo.21970751)
 
 This repository accompanies the paper **"Feedforward-Feedback Control Methodology for Low-Volume Precision Plate Bending"**, authored by Partho Kundu, Nafis Iqbal, Zongze Li, Balark Tiwari, and Robert G. Landers (*Integrating Materials and Manufacturing Innovation*).
 
