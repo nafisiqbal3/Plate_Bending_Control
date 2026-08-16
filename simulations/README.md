@@ -1,6 +1,6 @@
 # Simulations
 
-MATLAB implementation of the plate-bending process model used to simulate the bending process before/independently of the real-time experiments. This is the simulation counterpart to the C++ code in `Real Time Codes/` — it implements the same underlying geometric and moment-curvature model, but runs offline over a full range of punch displacements and produces plots rather than driving hardware.
+MATLAB implementation of the plate-bending process model used to simulate the bending process before/independently of the real-time experiments. This is the simulation counterpart to the C++ code in `real_time_codes/` — it implements the same underlying geometric and moment-curvature model, but runs offline over a full range of punch displacements and produces plots rather than driving hardware.
 
 ## Contents
 
