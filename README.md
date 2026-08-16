@@ -1,4 +1,4 @@
-# Feedforward-Feedback Control Methodology for Low-Volume Precision Plate Bending [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.XXXXXXX.svg)](https://doi.org/10.5281/zenodo.XXXXXXX) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+# Feedforward-Feedback Control Methodology for Low-Volume Precision Plate Bending [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
 This repository accompanies the paper **"Feedforward-Feedback Control Methodology for Low-Volume Precision Plate Bending"**, authored by Partho Kundu, Nafis Iqbal, Zongze Li, Balark Tiwari, and Robert G. Landers (*Integrating Materials and Manufacturing Innovation*).
 
@@ -7,7 +7,8 @@ The repository contains the experimental data, MATLAB implementation of the proc
 
 ```text
 .
-├── data_and_figure/        # Dataset for Figures 9-22 in the Paper
+├── All_Figures/            # All figures in the Paper
+├── data_and_figures/       # Dataset for Figures 9-22 in the Paper
 ├── src/                    
 │   ├── real_time_code/     # Real-time image processing and process control algorithm (C++)
 │   └── simulation/         # Process model and simulation (MATLAB)
@@ -20,7 +21,7 @@ The study proposes a feedforward-feedback control methodology for efficiently an
 
 The process model and control strategy proposed in the paper is then validated by experiments. The experimental setup used in this study comprises a servo motor-driven three-axis motion-control system, with feedbacks coming from the servo encoders, a visual camera and a force sensor. The system is operated by a multithreaded, real-time C++ application. *This repository does **not** contain the complete code that runs the motion and sensory system in real-time, as that would make the repository hardware specific.* Only the image processing code and the process controlling code are included in `src/real_time_code/` directory. 
 
-The `data/` directory contains the relevant experimental data that have been used to generate the Figure 9-22 in the paper. Each figure has its own subfolder that contains `.csv` files with relevant data from the sensors or simulation results. 
+The `data_and_figures/` directory contains the relevant experimental data that have been used to generate the Figure 9-22 in the paper. Each figure has its own subfolder that contains `.csv` files with relevant data from the sensors or simulation results. 
 
 ## Prerequisites
 The simulation code only requires MATLAB and accompanying data to be run.
